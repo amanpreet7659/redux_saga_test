@@ -1,0 +1,171 @@
+table {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table td {
+    color: black;
+    border: 1px #adadad solid;
+}
+
+table th {
+    color: black;
+    border: 1px #adadad solid;
+}
+
+table tr {
+    color: black;
+    border: 1px #adadad solid;
+}
+
+.listIcon {
+    /* font-size: 20px;
+    color: #212529;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 70px; */
+}
+
+.sharetype {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.price {
+    color: #3eb1b3;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20% 10%;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    /* font-size: 30px; */
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+.iconList {
+    font-size: 30px;
+}
+
+.doller {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sharediv {
+    text-align: left;
+}
+
+.iShares {
+    font-size: 27px;
+    font-weight: bold;
+    color: #92cd37;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bydiv {
+    position: relative;
+    right: -40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.scriptDiv {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enquiry {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.grid_container {
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+
+.grid_item {
+    /* padding: 20px; */
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+.centerdiv {}
+
+.grid_item_list_container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 10px;
+    /* padding: 10px; */
+}
+
+.grid_item_list {
+    /* padding: 20px; */
+    text-align: left;
+    background-color: #fbfbfb;
+    color: gray;
+}
+
+.quantityDiv {
+    float: right;
+    color: black;
+}
+
+.grid_item_list_container_marketValue {
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    /* grid-template-columns: 80% 20%;
+    grid-column-gap: 10px; */
+    /* padding: 10px; */
+}
+
+.grid_item_list_marketValue {
+    /* padding: 20px; */
+    text-align: left;
+    background-color: #fbfbfb;
+    color: gray;
+}
+
+.marketValue {
+    /* float: right; */
+    color: black;
+}
+
+.buttonDivContainer {
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    /* padding: 10px; */
+}
+
+.buttonDivList {
+    text-align: left;
+    background-color: #fbfbfb;
+    color: #f59300;
+    border: 1px #f59300 solid;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}

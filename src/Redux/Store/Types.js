@@ -1,0 +1,6 @@
+export const GET_FILE_DATA = "GET_FILE_DATA"
+export const FILE_DATA = "FILE_DATA"
+export const SET_STOCK_DATA = "SET_STOCK_DATA"
+export const SET_FILE_DATA = "SET_FILE_DATA"
+export const GET_STOCK_SAGA = "GET_STOCK_SAGA"
+export const SET_STOCK_SAGA = "SET_STOCK_SAGA"
