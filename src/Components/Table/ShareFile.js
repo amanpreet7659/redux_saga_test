@@ -8,14 +8,14 @@ const ShareFile = ({ _ }) => {
             <Col xl={2} sm={2} lg={2} md={2} xs={2}>
                 <div className="icon"><BsList /></div>
             </Col>
-            <Col xl={4} sm={4} lg={4} md={4} xs={4}>
+            <Col xl={4} sm={5} lg={4} md={4} xs={5}>
                 <div className="childSecond">
                     <span className="scrip">{_.Scrip}</span>
                     <br />
                     <span className="priceD">${_.Price}</span>
                 </div>
             </Col>
-            <Col xl={6} sm={6} lg={6} md={6} xs={6}>
+            <Col xl={6} sm={5} lg={6} md={6} xs={5}>
                 <div className="childthird">
                     <img src={ishare} className="ishareImage" />
                     <br />

@@ -5,7 +5,7 @@ const DataTable = ({ stock }) => {
     
     return (
         <div className="w-75 m-auto">
-            <table className="table">
+            <table className="table table-responsive">
                 <thead>
                     <tr>
                         <th>Scrip</th>

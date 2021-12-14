@@ -40,7 +40,7 @@ const MainPage = () => {
 
     return (
         <div className="w-100 m-auto">
-            <div className="p-4 mainDivContainer">
+            <div className="mainDivContainer">
                 <div className="mainDivContainerList">
                     {stock && stock.map((_, i) => (
                         <div className="grid-container" key={i}>
@@ -84,10 +84,10 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
+            {/*<div className="customeprogress">
             <div className="m-2">
                 <DataTable stock={stock} />
             </div>
-            {/*<div className="customeprogress">
                 <div className="tryDiv" attr-val="60">
                     <div className="tryinside" style={{ width: "100%" }}></div>
                 </div>

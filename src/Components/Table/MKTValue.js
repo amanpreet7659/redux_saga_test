@@ -8,7 +8,7 @@ const MKTValue = ({ _ }) => {
                     <label>Market Value</label>
                 </div>
                 <div className="">
-                    <label className="">${_.Price * _.Quantity}</label>
+                    <label className="MKTPrice">${_.Price * _.Quantity}</label>
                 </div>
             </div>
             <div className="secondmktvalue">

@@ -290,7 +290,7 @@ table tr {
 }
 
 .negative {
-    background: red;
+    background: #e9ecef;
     height: 10px;
     width: 50%;
     display: flex;
@@ -422,4 +422,194 @@ path.DonutChart-arcs-path {
 body {
     font-family: 'Times New Roman', Times, serif !important;
     background-color: #f3f3f3 !important;
+}
+
+
+/* Mobile View */
+
+@media (min-width: 320px) and (max-width:575px) {
+
+    body {
+        background-color: #efeeee !important;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .mainDivContainer {
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 10px;
+        width: 100%;
+        /* background-color: red; */
+        /* grid-gap: 10px; */
+    }
+
+    .mainDivContainerList {
+        padding: 7px;
+        text-align: center;
+        background-color: #f3f3f3;
+        /* background-color: #92cd37; */
+        width: 100%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 10px;
+        grid-gap: 1px;
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .grid-item {
+        padding: 7px;
+        text-align: center;
+        background-color: #efeeee;
+        display: flex;
+        width: 100%;
+    }
+
+    .firstDiv .ishareImage {
+        height: 30px;
+    }
+
+    .quantityDiv .firstchild {
+        display: flex;
+        grid-column-gap: 20px;
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+
+    .quantityDiv .secondChild {
+        display: flex;
+        grid-column-gap: 20px;
+        width: 200px;
+        /* justify-content: space-between; */
+    }
+
+    .quantityDiv .thirdChild {
+        display: flex;
+        grid-column-gap: 21px;
+        width: 210px;
+    }
+
+    .buttonDivContainer {
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 6px 6px;
+        /* margin: auto; */
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px
+    }
+
+    .btn-org {
+        color: orange;
+        border-color: orange;
+        font-weight: 500;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    .negative {
+        background: #e9ecef;
+        height: 10px;
+        width: 50%;
+        display: flex;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .DonutChart {
+        height: 160px;
+        width: 220px;
+        font-size: 44px !important;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .firstDiv ._Scrip {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .firstDiv .scrip {
+        font-size: 14px;
+        color: gray;
+    }
+
+    .firstDiv .priceD {
+        font-size: 24px;
+        color: #48bfcf;
+        font-weight: bold;
+    }
+
+    .firstDiv .icon {
+        font-size: 23px;
+    }
+
+    .firstDiv {
+        align-items: center;
+        width: 100%;
+    }
+
+    .quantityDiv {
+        width: 100%;
+    }
+
+    .quantityDiv .qtylabel {
+        color: gray;
+        width: 100%;
+        display: flex;
+    }
+
+    .quantityDiv .qtylabel .firstlabel {
+        min-width: 180px;
+        color: gray;
+        width: 140px;
+        text-align: left;
+    }
+
+    .MKTValue .firstmktvalue .MKTPrice {
+        width: 180px;
+    }
+
+    .MKTValue .firstmktvalue {
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        font-weight: bold;
+        /* padding: 0px 55px;*/
+    }
+
+    .MKTValue {
+        width: 100%;
+    }
+
+    .MKTValue .secondmktvalue .returnvalue {
+        font-weight: bold;
+        width: 210px;
+    }
+
+    .unrelizedDiv .returnarrowdiv {
+        font-weight: bold;
+        /* width: 0%; */
+        /* right: 0; */
+        left: 220px;
+        display: flex;
+        position: absolute;
+    }
+
+    .DonutChart {
+        height: 240px;
+        width: 280px;
+        font-size: 44px !important;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .MKTValue .secondmktvalue {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
 }
