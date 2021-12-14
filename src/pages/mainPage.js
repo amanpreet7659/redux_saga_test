@@ -79,7 +79,7 @@ const MainPage = () => {
                                 label: 'ETF',
                                 value: etf ? etf : 0,
                             }]}
-                            colors={['aqua', '#a89f4b']}
+                            colors={['#64b7dc', '#a89f4b']}
                         />
                     </div>
                 </div>

@@ -183,6 +183,7 @@ table tr {
 
 .MKTValue .returnD {
     color: gray;
+
 }
 
 .MKTValue .firstmktvalue {
@@ -220,11 +221,15 @@ table tr {
     justify-content: space-between;
     width: 100%;
     margin: 4px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .unrelizedDiv .return {
     color: gray;
+}
+
+.unrelizedDiv .returnarrowdiv {
+    font-weight: bold;
 }
 
 .grid_item_list_container_marketValue {
@@ -353,7 +358,10 @@ table tr {
     font-size: 44px !important;
     justify-content: space-around;
     display: flex;
+}
 
+path.DonutChart-arcs-path {
+    opacity: 1;
 }
 
 .returnarrowdiv {}
