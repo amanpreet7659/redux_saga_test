@@ -9,7 +9,6 @@ import { GET_STOCK_SAGA } from '../Redux/Store/Types';
 // console.log("stockJSON ", stockJSON);
 function* getStockJSON() {
     try {
-        // const JsonData = yield call(getData)
         yield put(setStockFile(stockJSON))
     } catch (error) {
         console.log(error);
