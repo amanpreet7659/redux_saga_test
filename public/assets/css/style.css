@@ -47,7 +47,12 @@ table tr {
 .mainDivContainerList {
     padding: 7px;
     text-align: center;
-    background-color: #fbfbfb;
+    background-color: #f3f3f3;
+}
+
+.mainDivContainerList .mainDivContainer_List {
+    background-color: #efeeee;
+    padding: 10px;
 }
 
 .mainDivContainerList .portfolio label {
@@ -64,7 +69,7 @@ table tr {
 .grid-item {
     padding: 7px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #efeeee;
     display: flex;
 }
 
@@ -344,7 +349,7 @@ table tr {
 
 .DonutChart {
     height: 150px;
-    width: 220px;
+    width: 200px;
     font-size: 44px !important;
     justify-content: space-around;
     display: flex;
@@ -408,4 +413,5 @@ table tr {
 
 body {
     font-family: 'Times New Roman', Times, serif !important;
+    background-color: #f3f3f3 !important;
 }

@@ -63,22 +63,25 @@ const MainPage = () => {
                     ))}
                 </div>
                 <div className="mainDivContainerList">
-                    <div className="portfolio">
-                        <label>Portfolio</label>
-                        <label>Asset wise <BsFillCaretDownFill /></label>
+                    <div className="mainDivContainer_List">
+
+                        <div className="portfolio">
+                            <label>Portfolio</label>
+                            <label>Asset wise <BsFillCaretDownFill /></label>
+                        </div>
+                        <DonutChart
+                            className="DonutChart"
+                            data={[{
+                                label: 'MF',
+                                value: mf ? mf : 0
+                            },
+                            {
+                                label: 'ETF',
+                                value: etf ? etf : 0,
+                            }]}
+                            colors={['aqua', '#a89f4b']}
+                        />
                     </div>
-                    <DonutChart
-                        className="DonutChart"
-                        data={[{
-                            label: 'MF',
-                            value: mf ? mf : 0
-                        },
-                        {
-                            label: 'ETF',
-                            value: etf ? etf : 0,
-                        }]}
-                        colors={['aqua', '#a89f4b']}
-                    />
                 </div>
             </div>
             <div className="m-2">
