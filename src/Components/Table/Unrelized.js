@@ -43,7 +43,7 @@ const Unrelized = ({ _ }) => {
                             className="pos-val"
                             style={{
                                 width:
-                                    _.Return > 0 ? `${_.Return}%` : 0,
+                                    _.Return > 0 ? `${_.Return}%` : "0%",
                             }}
                         ></div>
                     </div>

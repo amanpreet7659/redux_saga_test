@@ -16,7 +16,7 @@ const MKTValue = ({ _ }) => {
                     <label className="returnD">% of Portfolio Value</label>
                 </div>
                 <div className="">
-                    <label className="">{_.PortfolioValue}%</label>
+                    <label className="returnvalue">{_.PortfolioValue}%</label>
                 </div>
             </div>
             <LinearProgress

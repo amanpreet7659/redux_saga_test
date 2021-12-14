@@ -50,6 +50,10 @@ table tr {
     background-color: #fbfbfb;
 }
 
+.mainDivContainerList .portfolio label {
+    font-weight: bold;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 26% 21% 21% 22% 8%;
@@ -61,6 +65,7 @@ table tr {
     padding: 7px;
     text-align: center;
     background-color: #f3f3f3;
+    display: flex;
 }
 
 .iconList {
@@ -163,6 +168,7 @@ table tr {
 
 .quantityDiv .qtylabel .lastLabel {
     color: black;
+    font-weight: bold;
 }
 
 
@@ -178,6 +184,7 @@ table tr {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-weight: bold;
 }
 
 .MKTValue .secondmktvalue {
@@ -185,6 +192,11 @@ table tr {
     justify-content: space-between;
     width: 100%;
 }
+
+.MKTValue .secondmktvalue .returnvalue {
+    font-weight: bold;
+}
+
 
 .unrelizedDiv {
     width: 200px;
@@ -195,6 +207,7 @@ table tr {
     justify-content: space-between;
     width: 100%;
     margin: 4px;
+    font-weight: bold;
 }
 
 .unrelizedDiv .unsecondDiv {
@@ -202,6 +215,7 @@ table tr {
     justify-content: space-between;
     width: 100%;
     margin: 4px;
+    font-weight: bold;
 }
 
 .unrelizedDiv .return {
@@ -323,6 +337,7 @@ table tr {
 .MuiLinearProgress-barColorPrimary {
     background-color: rgb(12, 206, 12) !important;
 }
+
 .MuiLinearProgress-colorPrimary {
     background-color: #e9ecef !important;
 }
@@ -377,7 +392,7 @@ table tr {
 }
 
 .firstDiv ._Scrip {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 

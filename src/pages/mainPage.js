@@ -39,7 +39,7 @@ const MainPage = () => {
     })
 
     return (
-        <div className="w-100 m-auto border ">
+        <div className="w-100 m-auto">
             <div className="p-4 mainDivContainer">
                 <div className="mainDivContainerList">
                     {stock && stock.map((_, i) => (
@@ -71,11 +71,11 @@ const MainPage = () => {
                         className="DonutChart"
                         data={[{
                             label: 'MF',
-                            value: mf
+                            value: mf ? mf : 0
                         },
                         {
                             label: 'ETF',
-                            value: etf,
+                            value: etf ? etf : 0,
                         }]}
                         colors={['aqua', '#a89f4b']}
                     />
