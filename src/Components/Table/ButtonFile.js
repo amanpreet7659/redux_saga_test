@@ -1,8 +1,8 @@
 const ButtonFile = () => {
     return (
         <div className="buttonDivContainer">
-            <button className="buttonDivList ">Buy</button>
-            <button className="buttonDivList">Sell</button>
+            <button className="buttonDivList btn-org">Buy</button>
+            <button className="buttonDivList btn-org">Sell</button>
         </div>
     )
 }

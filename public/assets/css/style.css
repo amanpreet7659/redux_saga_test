@@ -17,16 +17,10 @@ table tr {
     border: 1px #adadad solid;
 }
 
-.listIcon {
-    /* font-size: 20px;
-    color: #212529;
-    text-align: center;
-    margin: auto;
-    align-items: center;
-    position: relative;
+.portfolio {
     display: flex;
-    width: 30px;
-    height: 70px; */
+    justify-content: space-between;
+    width: 100%;
 }
 
 .sharetype {
@@ -43,19 +37,30 @@ table tr {
     font-size: 33px;
 }
 
+.mainDivContainer {
+    display: grid;
+    grid-template-columns: 82% 18%;
+    margin-bottom: 10px;
+    grid-gap: 10px;
+}
+
+.mainDivContainerList {
+    padding: 7px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: 30% 20% 20% 20% 10%;
-    grid-column-gap: 10px;
-    padding: 10px;
+    grid-template-columns: 26% 21% 21% 22% 8%;
+    margin-bottom: 10px;
+    grid-gap: 10px;
 }
 
 .grid-item {
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 20px;
-    /* font-size: 30px; */
+    padding: 7px;
     text-align: center;
-    background-color: #fbfbfb;
+    background-color: #f3f3f3;
 }
 
 .iconList {
@@ -111,8 +116,6 @@ table tr {
     background-color: #fbfbfb;
 }
 
-.centerdiv {}
-
 .grid_item_list_container {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -127,21 +130,90 @@ table tr {
     color: gray;
 }
 
-.quantityDiv {
-    float: right;
+.quantityDiv .firstchild {
+    display: flex;
+    grid-column-gap: 5px;
+    width: 200px
+}
+
+.quantityDiv .secondChild {
+    display: flex;
+    grid-column-gap: 5px;
+    width: 200px
+}
+
+.quantityDiv .thirdChild {
+    display: flex;
+    grid-column-gap: 5px;
+    width: 200px
+}
+
+.quantityDiv .qtylabel {
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */
+    color: gray;
+}
+
+.quantityDiv .qtylabel .firstlabel {
+    min-width: 100px;
+    color: gray;
+    text-align: left;
+}
+
+.quantityDiv .qtylabel .lastLabel {
     color: black;
+}
+
+
+.MKTValue {
+    width: 200px;
+}
+
+.MKTValue .returnD {
+    color: gray;
+}
+
+.MKTValue .firstmktvalue {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.MKTValue .secondmktvalue {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.unrelizedDiv {
+    width: 200px;
+}
+
+.unrelizedDiv .unfirstDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4px;
+}
+
+.unrelizedDiv .unsecondDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4px;
+}
+
+.unrelizedDiv .return {
+    color: gray;
 }
 
 .grid_item_list_container_marketValue {
     display: grid;
     font-family: 'Times New Roman', Times, serif;
-    /* grid-template-columns: 80% 20%;
-    grid-column-gap: 10px; */
-    /* padding: 10px; */
 }
 
 .grid_item_list_marketValue {
-    /* padding: 20px; */
     text-align: left;
     background-color: #fbfbfb;
     color: gray;
@@ -155,17 +227,170 @@ table tr {
 .buttonDivContainer {
     display: grid;
     font-family: 'Times New Roman', Times, serif;
-    grid-template-columns: 100%;
-    grid-column-gap: 10px;
+    padding: 8px 0px;
     /* padding: 10px; */
 }
 
 .buttonDivList {
-    text-align: left;
+    /* text-align: left; */
     background-color: #fbfbfb;
     color: #f59300;
     border: 1px #f59300 solid;
     padding: 5px 15px;
     border-radius: 5px;
     margin-bottom: 4px;
+    width: 60px;
+    margin: auto;
+}
+
+.return-val {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tryDiv {
+    height: 10px;
+    /* background: #3580c1; */
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.tryDiv .tryinside {
+    height: 10px;
+    background: #3580c1;
+    /* width: 50%; */
+    /* margin: auto; */
+    border-radius: 10px;
+}
+
+.negative {
+    background: red;
+    height: 10px;
+    width: 50%;
+    display: flex;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.positive {
+    background: #e9ecef;
+    height: 10px;
+    width: 50%;
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.negative div {
+    line-height: 10px;
+    background: #e9ecef;
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.positive div {
+    line-height: 10px;
+    background: rgb(12, 206, 12);
+    width: 100%;
+}
+
+.btn-org {
+    color: orange;
+    border-color: orange;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.btn-org:hover {
+    color: #ffffff;
+    background-color: orange;
+    outline: none;
+}
+
+.progressBar {
+    height: 10%;
+    /* color: green; */
+}
+
+.MuiLinearProgress-root {
+    height: 10px !important;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 13px;
+}
+
+.MuiLinearProgress-barColorPrimary {
+    background-color: rgb(12, 206, 12) !important;
+}
+.MuiLinearProgress-colorPrimary {
+    background-color: #e9ecef !important;
+}
+
+.DonutChart {
+    height: 150px;
+    width: 220px;
+    font-size: 44px !important;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.returnarrowdiv {}
+
+.iconup {
+    color: rgb(12, 206, 12);
+}
+
+.icondown {
+    color: red;
+}
+
+.DonutChart .DonutChart-legend {}
+
+.firstDiv {
+
+    align-items: center;
+}
+
+.firstDiv .icon {
+    font-size: 26px;
+}
+
+.firstDiv .scrip {
+    font-size: 16px;
+    color: gray;
+}
+
+.firstDiv .priceD {
+    font-size: 30px;
+    color: #48bfcf;
+    font-weight: bold;
+}
+
+.firstDiv .childSecond {
+    align-items: center;
+}
+
+.firstDiv .ishareImage {
+    height: 40px;
+}
+
+.firstDiv ._Scrip {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.firstDiv .childthird {
+    font-weight: bold;
+    text-align: left;
+}
+
+.firstDiv .enquiryD {
+    color: gray;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif !important;
 }

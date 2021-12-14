@@ -1,24 +1,29 @@
-const MKTValue = ({_}) => {
+import LinearProgress from "@material-ui/core/LinearProgress";
+
+const MKTValue = ({ _ }) => {
     return (
-        <div className="grid_item_list_container_marketValue">
-            <div className="grid_item_list_marketValue">
-                <div className="d-flex p-2">
-                    <div className="w-75">
-                        <label>Market Value</label>
-                    </div>
-                    <div className="w-25">
-                        <label className="marketValue">${_.Price * _.Quantity}</label>
-                    </div>
+        <div className="MKTValue">
+            <div className="firstmktvalue">
+                <div className="">
+                    <label>Market Value</label>
                 </div>
-                <div className="d-flex p-2">
-                    <div className="w-75">
-                        <label>% of Portfolio Value</label>
-                    </div>
-                    <div className="w-25">
-                        <label className="marketValue">{_.PortfolioValue}%</label>
-                    </div>
+                <div className="">
+                    <label className="">${_.Price * _.Quantity}</label>
                 </div>
             </div>
+            <div className="secondmktvalue">
+                <div className="">
+                    <label className="returnD">% of Portfolio Value</label>
+                </div>
+                <div className="">
+                    <label className="">{_.PortfolioValue}%</label>
+                </div>
+            </div>
+            <LinearProgress
+                variant="determinate"
+                value={_.PortfolioValue}
+                className="progressBar"
+            />
         </div>
     )
 }
