@@ -6,7 +6,7 @@ const Unrelized = ({ _ }) => {
             <div className="">
                 <div className="unfirstDiv">
                     <div className="">Unrealized P&L</div>
-                    <div className="" style={{ width: "0px", position: "relative", left: "7px" }}>
+                    <div className="" style={{ }}>
                         <span>${_.UnrealizedPL}</span>
                     </div>
                 </div>
